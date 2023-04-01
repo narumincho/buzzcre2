@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "buzzcre2",
+  "version": "${version}",
+  "name": "buzzcre2",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/narum/buzzcre2"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/buzzcre2/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "com.buzzcre.buzzcre2.client.Buzzcre2Client"
+    ],
+    "main": [
+      "com.buzzcre.buzzcre2.Buzzcre2"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
